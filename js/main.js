@@ -70,12 +70,27 @@ jQuery(function($) {'use strict';
 		var form_status = $('<div class="form_status"></div>');
 		$.ajax({
 			url: $(this).attr('action'),
+			type:$(this).attr("method"),
+			data: form.serialize(),
+
 			beforeSend: function(){
 				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+			},
+			success: function(response){
+				if(response.success){
+                    form_status.html('<p class="text-success">Thank you for contacting us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+				}
+				else if(response.error == 1){
+                    form_status.html('<p class="text-danger">We were unable to send your message</p>').delay(3000).fadeOut();
+				}
+				else if(response.error == 2){
+                    form_status.html('<p class="text-danger">Your email is not valid!</p>').delay(3000).fadeOut();
+                }
+                else {
+                    form_status.html('<p class="text-danger">Something went wrong!</p>').delay(3000).fadeOut();
+                }
 			}
-		}).done(function(data){
-			form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
-		});
+		})
 	});
 
 	// Progress Bar

@@ -33,7 +33,7 @@
                             <li><a href=""><i class="fa fa-facebook"></i></a></li>
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
                             <li><a href=""><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCGWiHMMGC-TKe7WoTmAIgfQ" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                             <li><a href=""><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
