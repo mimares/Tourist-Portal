@@ -222,7 +222,6 @@
         </div>
     </div>
 </footer>
-
 <!--/#footer-->
 
 <script type="text/javascript" src="assets/js/jquery.js"></script>
