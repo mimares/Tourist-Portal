@@ -78,7 +78,7 @@ jQuery(function($) {'use strict';
 			},
 			success: function(response){
 				if(response.success){
-                    form_status.html('<p class="text-success">Thank you for contacting us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
+                    form_status.html('<p class="text-success">Thank you for contacting us! We will get back to you as soon as possible</p>').delay(3000).fadeOut();
 				}
 				else if(response.error == 1){
                     form_status.html('<p class="text-danger">We were unable to send your message</p>').delay(3000).fadeOut();

@@ -1,4 +1,5 @@
-<?php require "includes/header.inc.php"?>
+<?php require "includes/header.inc.php" ?>
+
 
 <section id="home-slider">
     <div class="container">
@@ -6,10 +7,10 @@
             <div class="main-slider">
                 <div class="slide-text">
                     <h1>Welcome to Subotica</h1>
-                    <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
-                    <a href="#" class="btn btn-common">SIGN UP</a>
+                    <p>Explore this lovely gem in the north of Serbia, on your own or with some help from our guides!</p>
+                    <a href="register.php" class="btn btn-info btn-lg">SIGN UP</a>
                 </div>
-                <img src="images/home/slider/gradskaKuca.png" class="slider-hill" alt="slider image">
+                <img src="assets/images/gradskaKuca.png" class="slider-hill" alt="slider image">
                 <!--<img src="images/home/slider/pozoriste2.png" class="slider-house" alt="slider image">  -->
                 <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
                 <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
@@ -27,28 +28,28 @@
             <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                 <div class="single-service">
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="images/home/icon1.png" alt="">
+                        <img src="assets/images/sinagogaSmall.png" alt="Sinagoga">
                     </div>
-                    <h2>Incredibly Responsive</h2>
-                    <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+                    <h2>Incredible architecture</h2>
+                    <p>Explore the Art Nouveau art style from the late 19th and the early 20th century that dominates the city centre.</p>
                 </div>
             </div>
             <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                 <div class="single-service">
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                        <img src="images/home/icon2.png" alt="">
+                        <img src="assets/images/pozoristeSmall.png" alt="Theatre">
                     </div>
-                    <h2>Superior Typography</h2>
-                    <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+                    <h2>Pearl of the north</h2>
+                    <p>Small city on the border with Hungary, with a lot of historical monuments and buildings.</p>
                 </div>
             </div>
             <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                 <div class="single-service">
                     <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                        <img src="images/home/icon3.png" alt="">
+                        <img src="assets/images/rajhlSmall.png" alt="Rajhl Palace">
                     </div>
-                    <h2>Swift Page Builder</h2>
-                    <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+                    <h2>Cultural diversity</h2>
+                    <p>Feel the unique mix of Serbian, Hungarian and Croatian influences living together for many years. </p>
                 </div>
             </div>
         </div>
@@ -62,13 +63,11 @@
             <div class="row">
                 <div class="action take-tour">
                     <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h1 class="title">Triangle Corporate Template</h1>
-                        <p>A responsive, retina-ready &amp; wide multipurpose template.</p>
+                        <h1 class="title">Explore Subotica and Palic on wheels</h1>
+                        <p>Rent a bike and cruise through the city with ease!</p>
                     </div>
                     <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <div class="tour-button">
-                            <a href="#" class="btn btn-common">TAKE THE TOUR</a>
-                        </div>
+                        <img src="assets/images/bikeSmall.png" alt="bicycle">
                     </div>
                 </div>
             </div>
@@ -82,29 +81,29 @@
         <div class="row">
             <div class="single-features">
                 <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image1.png" class="img-responsive" alt="">
+                    <img src="assets/images/suboticaSmall.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <h2>Experienced and Enthusiastic</h2>
-                    <P>Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.</P>
+                    <h2>City Hall is a good start</h2>
+                    <P>You can't really miss it! Located in the the heart of the city, it invites you to explore. Be sure to get to the top of the tower for a lovely view!</P>
                 </div>
             </div>
             <div class="single-features">
                 <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <h2>Built for the Responsive Web</h2>
-                    <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
+                    <h2>Lake Palic</h2>
+                    <P>Only a 10 minutes car drive away, Palic lake is truly a gem. A bit more of Art Nouveau sightseeing, visit the famous zoo or enjoy in a stroll along the lake shore.</P>
                 </div>
                 <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image2.png" class="img-responsive" alt="">
+                    <img src="assets/images/velikaTerasaSmall.jpg" class="img-responsive" alt="">
                 </div>
             </div>
             <div class="single-features">
                 <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <img src="images/home/image3.png" class="img-responsive" alt="">
+                    <img src="assets/images/vinarijaSmall.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <h2>Experienced and Enthusiastic</h2>
-                    <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</P>
+                    <h2>Wine and dine </h2>
+                    <P>Get lost along the famous Wine route and enjoy the cousine of our multi - cultural city.</P>
                 </div>
             </div>
         </div>
@@ -112,40 +111,7 @@
 </section>
 <!--/#features-->
 
-<section id="clients">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                    <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
-                    <h1 class="title">Happy Clients</h1>
-                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
-                </div>
-                <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
-                    </div>
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
-                    </div>
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
-                    </div>
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
-                    </div>
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
-                    </div>
-                    <div class="col-xs-3 col-sm-2">
-                        <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--/#clients-->
+
 <footer id="footer">
     <div class="container">
         <div class="row">
@@ -154,34 +120,33 @@
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="testimonial bottom">
-                    <h2>Testimonial</h2>
+                    <h2>Our happy clients</h2>
                     <div class="media">
                         <div class="pull-left">
-                            <a href="#"><img src="images/home/profile1.png" alt=""></a>
+                          <!--  <a href="#"><img src="images/home/profile1.png" alt=""></a> -->
                         </div>
                         <div class="media-body">
-                            <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-                            <h3><a href="#">- Jhon Kalis</a></h3>
+                            <blockquote>Don't miss Palic! We were impressed by the guide's knowledge of this place.</blockquote>
+                            <h3><a href="#">- Luka Patarcic</a></h3>
                         </div>
                     </div>
                     <div class="media">
                         <div class="pull-left">
-                            <a href="#"><img src="images/home/profile2.png" alt=""></a>
+                         <!--   <a href="#"><img src="images/home/profile2.png" alt=""></a> -->
                         </div>
                         <div class="media-body">
-                            <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
-                            <h3><a href="">- Abraham Josef</a></h3>
+                            <blockquote>They really are the best! I can't wait to come visit this beautiful city once more.</blockquote>
+                            <h3><a href="">- Branko Sabo</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="contact-info bottom">
-                    <h2>Contacts</h2>
+                    <h2>Contact us</h2>
                     <address>
                         E-mail: <a href="mailto:someone@example.com">honestguidesubotica@gmail.com</a> <br>
-                        Phone: +381 24 4567890 <br>
-                        Fax: +1 (123) 456 7891 <br>
+                        Phone:<br> +381 24 4567890 <br>
                     </address>
 
                     <h2>Address</h2>

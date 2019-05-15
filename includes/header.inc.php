@@ -1,4 +1,7 @@
-<?php require "db_config.php"?>
+<?php
+    require "db_config.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,11 +19,10 @@
 	    <script src="js/html5shiv.js"></script>
 	    <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-icon-72x72.png">
 </head><!--/head-->
 
 <body>
@@ -57,40 +59,28 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                        <li class="active"><a href="index.php">Home</a></li>
+                        <li class="dropdown"><a href="#">Tours <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="aboutus.html">About</a></li>
-                                <li><a href="aboutus2.html">About 2</a></li>
-                                <li><a href="service.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="contact.html">Contact us</a></li>
-                                <li><a href="contact2.html">Contact us 2</a></li>
-                                <li><a href="404.html">404 error</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                <li><a href="aboutus.html">Top 5</a></li>
+                                <li><a href="aboutus2.html">New tours</a></li>
+                                <li><a href="service.html">Our guides</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="blog.html">Blog <i class="fa fa-angle-down"></i></a>
+                        <li class="dropdown"><a href="blog.html">Locations <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="blog.html">Blog Default</a></li>
-                                <li><a href="blogtwo.html">Timeline Blog</a></li>
-                                <li><a href="blogone.html">2 Columns + Right Sidebar</a></li>
-                                <li><a href="blogthree.html">1 Column + Left Sidebar</a></li>
-                                <li><a href="blogfour.html">Blog Masonary</a></li>
-                                <li><a href="blogdetails.html">Blog Details</a></li>
+                                <li><a href="blog.html">Top 5</a></li>
+                                <li><a href="blogtwo.html">New locations</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a href="portfolio.html">Portfolio <i class="fa fa-angle-down"></i></a>
+                        <li class="dropdown"><a href="portfolio.html">Events <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="portfolio.html">Portfolio Default</a></li>
-                                <li><a href="portfoliofour.html">Isotope 3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfolioone.html">3 Columns + Right Sidebar</a></li>
-                                <li><a href="portfoliotwo.html">3 Columns + Left Sidebar</a></li>
-                                <li><a href="portfoliothree.html">2 Columns</a></li>
-                                <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                                <li><a href="portfolio.html">Top 5</a></li>
+                                <li><a href="portfoliofour.html">This week</a></li>
+                                <li><a href="portfolioone.html">Coming up</a></li>
                             </ul>
                         </li>
-                        <li><a href="shortcodes.html ">Shortcodes</a></li>
+                        <li><a href="login.php ">Login</a></li>
                     </ul>
                 </div>
                 <div class="search">
