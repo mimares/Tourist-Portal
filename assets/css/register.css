@@ -42,6 +42,26 @@ form, .content {
     border-radius: 5px;
     border: 1px solid gray;
 }
+.text-danger{
+    color: #a94442;
+}
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
 .btn {
     padding: 10px;
     font-size: 15px;
@@ -49,6 +69,10 @@ form, .content {
     background: #5F9EA0;
     border: none;
     border-radius: 5px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
 }
 .error {
     width: 92%;
@@ -65,4 +89,8 @@ form, .content {
     background: #dff0d8;
     border: 1px solid #3c763d;
     margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
 }
