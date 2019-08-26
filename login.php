@@ -3,49 +3,41 @@
 
 <head>
     <title>Login Page</title>
-    <link href="css/responsive.css" rel="stylesheet">
-    <style type = "text/css">
-        body {
-            font-family:Arial, Helvetica, sans-serif;
-            font-size:14px;
-        }
-        label {
-            font-weight:bold;
-            width:100px;
-            font-size:14px;
-        }
-        .box {
-            border:#666666 solid 1px;
-        }
-    </style>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
 <body bgcolor = "#FFFFFF">
-
-<div align = "center">
-    <div style = "width:300px; border: solid 1px #333333; " align = "left">
-        <div style = "background-color:#5F9EA0; color:#FFFFFF; padding:3px;"><b>Login</b></div>
-
-        <div style = "margin:30px">
-
-            <form action = "includes/login.inc.php" method = "POST">
-                <label>Username </label><input type = "text" name = "username" class = "box"/><br /><br />
-                <label>Password </label><input type = "password" name = "password" class = "box" /><br/><br />
-                <input  type = "submit" name="submit" class = "btn btn-submit" value = " Login "/><br />
-                <div>
-                    <?php
-                    if(isset($_GET['error'])) {
-                        if($_GET['error'] == 'true')
-                        echo 'Your password or username is incorrect';
-                        if($_GET['error'] == 'fatal')
-                            echo 'Oops something went wrong...';
-                    }
-                    ?>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-sm-12 col-md-6 offset-md-3">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="text-center">Login</h2>
                 </div>
-            </form>
+                <div class="card-body">
+                    <form action = "includes/login.inc.php" method = "POST">
+                        <label>Username </label><input type = "text" name = "username" class = "form-control"/>
+                        <label>Password </label><input type = "password" name = "password" class = "form-control" />
+                        <button  type = "submit" name="submit" class = "btn btn-primary btn-block mt-3"><i class="fa fa-sign-in"></i> Login</button>
+                        <div>
+                            <?php
+                            if(isset($_GET['error'])) {
+                                if($_GET['error'] == 'true')
+                                    echo '<p class="text-danger text-center">Your password or username is incorrect</p>';
+                                if($_GET['error'] == 'fatal')
+                                    echo '<p class="text-danger text-center">Oops something went wrong...</p>';
+                            }
+                            ?>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-
 </div>
 
 </body>

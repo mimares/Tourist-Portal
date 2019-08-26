@@ -1,4 +1,4 @@
-<?php require "includes/header.inc.php" ?>
+<?php require "header.inc.php" ?>
 
 
 <section id="home-slider">
@@ -8,7 +8,11 @@
                 <div class="slide-text">
                     <h1>Welcome to Subotica</h1>
                     <p>Explore this lovely gem in the north of Serbia, on your own or with some help from our guides!</p>
-                    <a href="register.php" class="btn btn-info btn-lg">SIGN UP</a>
+                    <?php if (!isset($_SESSION['username'])) {
+                        echo '<a href="register.php" class="btn btn-info btn-lg">SIGN UP</a>';
+
+                    }
+                    ?>
                 </div>
                 <img src="assets/images/gradskaKuca.png" class="slider-hill" alt="slider image">
                 <!--<img src="images/home/slider/pozoriste2.png" class="slider-house" alt="slider image">  -->

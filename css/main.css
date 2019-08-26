@@ -2674,3 +2674,15 @@ span.stButton_gradient,
   border-radius: 100%;
   margin: 10px 0;
 }
+
+.list-group-item>.badge {
+  float: none;
+}
+
+.badge-link {
+  color: #fff;
+}
+
+ .list-group-item>.badge+.badge {
+   margin-right: 0px;
+ }
